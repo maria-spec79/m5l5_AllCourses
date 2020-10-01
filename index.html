@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>All Courses</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Playfair+Display&display=swap" rel="stylesheet"> 
+	</head>
+	
+	<body>
+		<aside class="sidebar">
+			<div class="logo">
+				<span class="logo__block">O</span>
+				<span class="logo__word">Ohara</span>
+			</div>
+			<button class="btn">Join a course</button>
+			<nav class="sidebar__menu">
+				<a href="#" class="sidebar__menu-link sidebar__menu-link_dash">Dashboard</a>
+				<a href="#" class="sidebar__menu-link sidebar__menu-link_all sidebar__menu-link_current">All courses</a>
+				<a href="#" class="sidebar__menu-link sidebar__menu-link_res">Resources</a>
+				<a href="#" class="sidebar__menu-link sidebar__menu-link_fri">Friends</a>
+				<a href="#" class="sidebar__menu-link sidebar__menu-link_ch">Chats</a>
+				<a href="#" class="sidebar__menu-link sidebar__menu-link_set">Settings</a>
+			</nav>
+			<div class="upgrade">
+				<img src="images/upgrade.png" alt="" class="upgrade__picture">
+				<span class="upgrade__text">Upgrade to for more resources</span>
+				<button class="btn btn_upgrade">Upgrade</button>
+			</div>
+		</aside>
+
+		<section class="courses">
+			<div class="header__top">
+				<div class="header__search">
+					<input type="text" name="" class="header__search-field" placeholder="Search">
+				</div>
+				<a href="#"><img src="images/notify.png" class="header__notify-icon"></a>
+			</div>
+			
+			<div class="header__bottom">
+				<h1 class="heading">All courses</h1>
+				<nav class="courses__menu">
+					<a href="#" class="courses__menu-link courses__menu-link_current">On<span class="link-hover link-hover_current">go</span>ing</a>
+					<a href="#" class="courses__menu-link">Fav<span class="link-hover">ou</span>rite</a>
+					<a href="#" class="courses__menu-link">Co<span class="link-hover">mp</span>lete</a>
+				</nav>
+			</div>
+
+			<div class="courses__track">
+				<div class="track">
+					<img src="images/animation-bg.png" alt="" class="track__picture">
+					<h2 class="track__heading">Animation</h2>
+					<span class="track__lessons">12 lessons</span>
+					<span class="track__duration">2h 30min</span>
+					<div class="track__play"></div>
+					<img src="images/animation-teacher.png" alt="" class="track__icon">
+				</div>
+				<div class="track">
+					<img src="images/photo-bg.png" alt="" class="track__picture">
+					<h2 class="track__heading">Photography</h2>
+					<span class="track__lessons">12 lessons</span>
+					<span class="track__duration">1h 30min</span>
+					<div class="track__play"></div>
+					<img src="images/photo-teacher.png" alt="" class="track__icon">
+				</div>
+				<div class="track track_wide">
+					<img src="images/design-bg.png" alt="" class="track__picture">
+					<h2 class="track__heading">UI/UX Design</h2>
+					<span class="track__lessons">20 lessons</span>
+					<span class="track__duration">2h 20min</span>
+					<div class="track__play"></div>
+					<img src="images/design-teacher.png" alt="" class="track__icon">
+				</div>
+			</div>
+		</section>
+
+		<aside class="profile">
+			<div class="profile__header">
+				<img src="images/user.png" alt="" class="profile__icon">
+				<span class="profile__name">Alexa Rogue</span>
+				<div class="profile__arrow"></div>
+			</div>
+			<div class="profile__data">
+				<h4 class="heading heading_profile">Progress</h4>
+				<div class="data__item">
+					<div class="data__icon"></div>
+					<span class="data__trackname">UI/UX Design<br><span class="data__addition">Advanced</span></span>
+					<div class="data__scale"></div>
+				</div>
+				<div class="data__item">
+					<div class="data__icon data__icon_photo"></div>
+					<span class="data__trackname">Photography<br><span class="data__addition">Intermediate</span></span>
+					<div class="data__scale data__scale_photo"></div>
+				</div>
+				<div class="data__item">
+					<div class="data__icon data__icon_anim"></div>
+					<span class="data__trackname">Animation<br><span class="data__addition">Advanced</span></span>
+					<div class="data__scale data__scale_anim"></div>
+				</div>
+			</div>
+
+			<div class="profile__data">
+				<h4 class="heading heading_profile">Upcoming Task</h4>
+				<div class="data__item">
+					<div class="data__icon data__icon_discuss"></div>
+					<span class="data__trackname data__trackname_task">UI/UX - Discussion<br><span class="data__addition">27 Oct 2020, Tuesday</span></span>
+				</div>
+				<div class="data__item">
+					<div class="data__icon data__icon_3d"></div>
+					<span class="data__trackname data__trackname_task">Animation - 3D Animation<br><span class="data__addition">27 Oct 2020, Tuesday</span></span>
+				</div>
+			</div>
+
+			<div class="profile__download">
+				<h4 class="heading heading_profile heading_download">Download Ohara Now!</h4>
+				<div class="download__resourses">
+					<a href="#" class="download__link"><img src="images/playmarket.png" alt="" class="download__link-icon"></a>
+					<a href="#" class="download__link"><img src="images/applestore.png" alt="" class="download__link-icon download__link-icon_apple"></a>
+				</div>
+			</div>
+		</aside>
+	</body>
+</html>
